@@ -22,5 +22,5 @@
 {% endif %}
 
 <a class="ref-bibtex-button" onclick='navigator.clipboard.writeText({{ entry.bibtex | jsonify }})'>bibtex</a>
-<a class="ref-bibtex-button" onclick='window.open({{ entry.url | jsonify}}, "_blank")'>paper</a>
+<a class="ref-bibtex-button" onclick='window.open({{ entry.urllink | jsonify}}, "_blank")'>paper</a>
 
