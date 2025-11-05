@@ -8,5 +8,6 @@ group :jekyll_plugins do
   gem 'jekyll-scholar'
   gem 'jekyll-paginate'
   gem 'jekyll-sitemap'
+  gem 'sass-embedded', '~> 1.83'
 end
 
